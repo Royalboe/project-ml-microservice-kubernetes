@@ -11,9 +11,8 @@ COPY . /app
 ## Step 3:
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
-RUN pip install RUN pip install --no-cache-dir --upgrade pip==22.2.2 &&\
-                pip install --no-cache-dir -r requirements.txt -r requirements.txt
-
+RUN pip install --upgrade pip &&\
+    pip install --trusted-host pypi.python.org -r requirements.txt
 ## Step 4:
 # Expose port 80
 EXPOSE 80
