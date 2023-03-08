@@ -1,4 +1,4 @@
-[![Royalboe](https://circleci.com/gh/Royalboe/project-ml-microservices-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/Royalboe/project-ml-microservice-kubernetes)
+[![CircleCI](https://circleci.com/gh/Royalboe/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/Royalboe/project-ml-microservice-kubernetes)
 # Operationalize-a-Machine-Learning-Microservice-API
 Microservice Project [Udacity Cloud DevOps Engineer Nanodegree]
 
