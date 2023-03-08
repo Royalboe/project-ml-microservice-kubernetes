@@ -10,4 +10,4 @@ docker image build --tag ml-kube .
 docker image list
 # Step 3: 
 # Run flask app
-docker container run --name ml-kube-con
+docker container run -p 8000:80 --name ml-kube-con ml-kube

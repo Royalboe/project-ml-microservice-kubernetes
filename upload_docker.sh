@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="royalboe/ml-kube"
 
 # Step 2:  
 # Authenticate & tag
+# docker login
+docker tag ml-kube ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push ${dockerpath}
