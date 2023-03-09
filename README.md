@@ -32,6 +32,19 @@ source <your_venv>/bin/activate
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
+
+### Running using docker
+1. Install docker: Check documentations
+2. Run in docker: `./run_docker.sh`
+3. RUn prediction: `./run_prediction.sh`
+
+### Running using kubernetes
+1. Install kubectl : Check the kubernetes documentations to install on your machine
+2. Start minikube: `minikube start`
+3. Run `./run_kubernetes.sh`
+4. Run prediction: `./run_prediction.sh`
+5. To stop: `minikube delete`
+
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
